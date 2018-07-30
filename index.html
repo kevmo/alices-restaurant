@@ -9,7 +9,7 @@
 		  Any other head element should come *after* these tags.
 		 -->
 
-		 <!-- This is how you format an HTML comment, by the way. -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
 
 		 <!-- Link to an external CSS file. -->
 		<link rel="stylesheet" href="styles.css">
@@ -31,20 +31,20 @@
 
 			<div class="Testimonial">
 				<img src="images/woman.png">
-				<p>Emma Goldman</p>
-				<p>The finest meal I ever had.</p>
+				<p class="name">Emma Goldman</p>
+				<p class="review">The finest meal I ever had.</p>
 			</div>	
 
 			<div class="Testimonial">
 				<img src="images/woman.png">
-				<p>Emma Goldman</p>
-				<p>The finest meal I ever had.</p>
+				<p class="name">Emma Goldman</p>
+				<p class="review">The finest meal I ever had.</p>
 			</div>	
 
 			<div class="Testimonial">
 				<img src="images/woman.png">
-				<p>Emma Goldman</p>
-				<p>The finest meal I ever had.</p>
+				<p class="name">Emma Goldman</p>
+				<p class="review">The finest meal I ever had.</p>
 			</div>	
 
 		</div>
@@ -89,20 +89,20 @@
 
 		<div class="Contact">
 			<form action="/my-handling-form-page" method="post">
-				
+
 			  	<div>
 					<label for="name">Name:</label>
-			   	 	<input type="text" id="name" name="user_name">
+			   	 	<input type="text" id="name" name="user_name" placeholder="Type Your Name">
 			  	</div>
 
 			  	<div>
-			    	<label for="mail">E-mail:</label>
-			    	<input type="email" id="mail" name="user_mail">
+			    	<label for="mail">Email:</label>
+			    	<input type="email" id="mail" name="user_mail" placeholder="Type Your Email">
 			  	</div>
 
 			  	<div>
-			    	<label for="msg">Message:</label>
-			    	<textarea id="msg" name="user_message"></textarea>
+			    	<label for="msg">What's up?</label>
+			    	<input type="text" id="msg" name="user_message" placeholder="Type Your Message"></textarea>
 			  </div>
 			</form>
 		</div>
